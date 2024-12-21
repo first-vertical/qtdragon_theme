@@ -1,0 +1,161 @@
+QMainWindow {
+    background-color: #F9F9F9;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QPushButton, ActionButton, SystemToolButton, AxisToolButton, QToolButton {
+    background-color: #828282;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 0px;
+}
+
+#widget_view_buttons ActionButton {
+    width:200px;
+}
+
+QPushButton:hover, ActionButton:hover, SystemToolButton:hover, AxisToolButton:hover, QToolButton:hover {
+    background-color: #787878;
+}
+
+QPushButton:pressed, ActionButton:pressed, SystemToolButton:pressed, AxisToolButton:pressed, QToolButton:pressed {
+    background-color: #6e6e6e;
+}
+
+QLineEdit, QTextEdit, QSpinBox, QComboBox {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QLineEdit:focus, QTextEdit:focus, QSpinBox:focus, QComboBox:focus {
+    border: 1px solid #4A90E2;
+}
+
+QLabel {
+    color: #7D7D7D;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #DDDDDD;
+    height: 4px;
+    background-color: #E0E0E0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #828282;
+    border: 1px solid #828282;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin: -5px 0;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: #828282;
+}
+
+QProgressBar {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #828282;
+    border-radius: 4px;
+}
+
+QTableView {
+    background-color: #FFFFFF;
+    border: none;
+    gridline-color: #DDDDDD;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QHeaderView::section {
+    background-color: #F3F3F3;
+    padding: 4px;
+    border: none;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QToolTip {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+QScrollBar:horizontal, QScrollBar:vertical {
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal, QScrollBar::handle:vertical {
+    background-color: #828282;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover {
+    background-color: #828282;
+}
+
+#screen_options, #centralwidget {
+    background-color: #e6e6e6;
+}
+
+QGroupBox::title {
+    subcontrol-origin: padding;
+    subcontrol-position: top left;
+    padding: 10px 5px 10px 10px;
+    color: #333333;
+    background-color: transparent;
+}
+
+QGroupBox {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 35px 10px 15px 10px;
+}
+
+#frame_macro_buttons {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#frame_macro_buttons ActionButton {
+    margin-left:10px;
+}
+
+#label_axis_x, #label_axis_y, #label_axis_z {
+    background-color:#818181;
+    border-radius: 6px;
+    font-color:#ffffff;
+}
+
+#dro_axis_x, #dro_axis_y, #dro_axis_z, #lbl_gcodes, #lbl_mcodes, #status_machine_state, #statelabel_metric, #lbl_runtime, #status_maxvel_ovr, #lbl_max_rapid, #status_act_feedrate, #lbl_tool_scs, #lbl_maxv_percent, #status_rapid_ovr, #status_feed_ovr, #status_spindle_ovr {
+    border:1px solid #6e6e6e;
+}
+
+#frame_program {
+    background-color:#ffffff;
+}
