@@ -1,11 +1,10 @@
 QMainWindow {
     background-color: #F9F9F9;
     color: #333333;
-    font-family: 'Open Sans', sans-serif;
 }
 
 QPushButton, ActionButton, SystemToolButton, AxisToolButton, QToolButton {
-    background-color: #828282;
+    background-color: #5082af;
     border: none;
     border-radius: 6px;
     color: #FFFFFF;
@@ -17,11 +16,11 @@ QPushButton, ActionButton, SystemToolButton, AxisToolButton, QToolButton {
 }
 
 QPushButton:hover, ActionButton:hover, SystemToolButton:hover, AxisToolButton:hover, QToolButton:hover {
-    background-color: #787878;
+    background-color: #48739c;
 }
 
 QPushButton:pressed, ActionButton:pressed, SystemToolButton:pressed, AxisToolButton:pressed, QToolButton:pressed {
-    background-color: #6e6e6e;
+    background-color: #48739c;
 }
 
 QLineEdit, QTextEdit, QSpinBox, QComboBox {
@@ -34,12 +33,11 @@ QLineEdit, QTextEdit, QSpinBox, QComboBox {
 }
 
 QLineEdit:focus, QTextEdit:focus, QSpinBox:focus, QComboBox:focus {
-    border: 1px solid #4A90E2;
+    border: 1px solid #48739c;
 }
 
 QLabel {
     color: #7D7D7D;
-    font-family: 'Open Sans', sans-serif;
 }
 
 QSlider::groove:horizontal {
@@ -50,8 +48,8 @@ QSlider::groove:horizontal {
 }
 
 QSlider::handle:horizontal {
-    background-color: #828282;
-    border: 1px solid #828282;
+    background-color: #5082af;
+    border: 1px solid #5082af;
     width: 14px;
     height: 14px;
     border-radius: 7px;
@@ -59,7 +57,7 @@ QSlider::handle:horizontal {
 }
 
 QSlider::handle:horizontal:hover {
-    background-color: #828282;
+    background-color: #5082af;
 }
 
 QProgressBar {
@@ -71,7 +69,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-    background-color: #828282;
+    background-color: #5082af;
     border-radius: 4px;
 }
 
@@ -115,6 +113,16 @@ QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover {
     background-color: #828282;
 }
 
+QScrollBar::add-line:horizontal {
+      border: none;
+      background: none;
+}
+
+QScrollBar::sub-line:horizontal {
+      border: none;
+      background: none;
+}
+
 #screen_options, #centralwidget {
     background-color: #e6e6e6;
 }
@@ -123,7 +131,7 @@ QGroupBox::title {
     subcontrol-origin: padding;
     subcontrol-position: top left;
     padding: 10px 5px 10px 10px;
-    color: #333333;
+    color: #5082af;
     background-color: transparent;
 }
 
@@ -140,22 +148,68 @@ QGroupBox {
     border: none;
     border-radius: 8px;
     padding: 10px;
+    margin:0;
+}
+
+#macrobutton0 {
+    margin-top:10px;
+}
+
+#frame_macro_buttons ActionButton {
+
 }
 
 #frame_macro_buttons ActionButton {
     margin-left:10px;
+    padding-top:15px;
+    padding-bottom:15px;
 }
 
-#label_axis_x, #label_axis_y, #label_axis_z {
-    background-color:#818181;
+#label_axis_x, #label_axis_y, #label_axis_z, #label_axis_4, #label_axis_5 {
+    background-color:#365776;
     border-radius: 6px;
-    font-color:#ffffff;
+    color:#ffffff;
+    font-size:24px;
 }
 
-#dro_axis_x, #dro_axis_y, #dro_axis_z, #lbl_gcodes, #lbl_mcodes, #status_machine_state, #statelabel_metric, #lbl_runtime, #status_maxvel_ovr, #lbl_max_rapid, #status_act_feedrate, #lbl_tool_scs, #lbl_maxv_percent, #status_rapid_ovr, #status_feed_ovr, #status_spindle_ovr {
-    border:1px solid #6e6e6e;
+StatusLabel, DROLabel, QLineEdit, MDILine, #dro_axis_x, #dro_axis_y, #dro_axis_z, #lbl_gcodes, #lbl_mcodes, #status_machine_state,
+#statelabel_metric, #lbl_runtime, #status_maxvel_ovr, #lbl_max_rapid, #status_act_feedrate, #lbl_tool_scs, #lbl_maxv_percent,
+#status_rapid_ovr, #status_feed_ovr, #status_spindle_ovr {
+    border:1px solid #5082af;
+    border-radius:5px;
+}
+
+#stackedWidget_mainTabPage1 {
+    margin:0;
+    padding:0;
+}
+
+#widget_view_buttons {
+    margin:0;
 }
 
 #frame_program {
     background-color:#ffffff;
+}
+
+#action_exit {
+    margin-right:10px;
+    background-color:#365776;
+}
+
+#lbl_clock {
+    border:none;
+}
+
+#groupBox_power {
+    margin-top:45px;
+}
+
+#action_machine_on {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#frame_modbus QLineEdit {
+    color:#ffffff;
 }

@@ -13,8 +13,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2354</width>
-    <height>1300</height>
+    <width>2560</width>
+    <height>1440</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -25,14 +25,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>0</width>
-    <height>0</height>
+    <width>2560</width>
+    <height>1440</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>2560</width>
-    <height>1410</height>
+    <height>1440</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -50,14 +50,14 @@
    </property>
    <property name="minimumSize">
     <size>
-     <width>2200</width>
-     <height>1300</height>
+     <width>2560</width>
+     <height>1400</height>
     </size>
    </property>
    <property name="maximumSize">
     <size>
-     <width>2200</width>
-     <height>1300</height>
+     <width>2560</width>
+     <height>1400</height>
     </size>
    </property>
    <property name="autoFillBackground">
@@ -86,15 +86,20 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>0</width>
-        <height>0</height>
+        <width>2550</width>
+        <height>1340</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>5000</width>
-        <height>16777215</height>
+        <width>2550</width>
+        <height>1340</height>
        </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
       </property>
       <property name="autoFillBackground">
        <bool>true</bool>
@@ -977,7 +982,7 @@
                 <property name="font">
                  <font>
                   <family>Open Sans</family>
-                  <pointsize>12</pointsize>
+                  <pointsize>14</pointsize>
                   <bold>true</bold>
                  </font>
                 </property>
@@ -1091,7 +1096,7 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <property name="currentIndex">
-                 <number>0</number>
+                 <number>8</number>
                 </property>
                 <widget class="QWidget" name="stackedWidget_mainTabPage1">
                  <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -1177,6 +1182,7 @@
                        <property name="font">
                         <font>
                          <family>Open Sans</family>
+                         <pointsize>12</pointsize>
                          <bold>true</bold>
                         </font>
                        </property>
@@ -6328,6 +6334,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6425,6 +6432,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6522,6 +6530,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6616,6 +6625,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6710,6 +6720,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6804,6 +6815,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6898,6 +6910,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -6998,6 +7011,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -7098,6 +7112,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -7192,6 +7207,7 @@ LOG</string>
                    <property name="font">
                     <font>
                      <family>Open Sans</family>
+                     <pointsize>12</pointsize>
                      <bold>true</bold>
                     </font>
                    </property>
@@ -7288,13 +7304,13 @@ LOG</string>
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>180</height>
+               <height>265</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>180</height>
+               <height>265</height>
               </size>
              </property>
              <property name="font">
@@ -7368,13 +7384,13 @@ LOG</string>
                 <property name="minimumSize">
                  <size>
                   <width>95</width>
-                  <height>40</height>
+                  <height>60</height>
                  </size>
                 </property>
                 <property name="maximumSize">
                  <size>
                   <width>95</width>
-                  <height>40</height>
+                  <height>60</height>
                  </size>
                 </property>
                 <property name="baseSize">
@@ -7471,6 +7487,18 @@ OFF</string>
            </item>
            <item>
             <widget class="QGroupBox" name="groupBox_inputs">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>260</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>260</height>
+              </size>
+             </property>
              <property name="font">
               <font>
                <family>Open Sans</family>
@@ -8414,6 +8442,18 @@ OFF</string>
            </item>
            <item>
             <widget class="QGroupBox" name="groupBox_mode">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>255</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>255</height>
+              </size>
+             </property>
              <property name="font">
               <font>
                <family>Open Sans</family>
@@ -9904,6 +9944,12 @@ Z COMP</string>
             </item>
             <item>
              <widget class="QWidget" name="widget_zaxis_offset_2" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>25</height>
+               </size>
+              </property>
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -9972,13 +10018,13 @@ Z COMP</string>
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>27</height>
+                   <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>27</height>
+                   <height>25</height>
                   </size>
                  </property>
                  <property name="font">
@@ -10081,13 +10127,13 @@ Z COMP</string>
                  <property name="minimumSize">
                   <size>
                    <width>80</width>
-                   <height>27</height>
+                   <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>27</height>
+                   <height>25</height>
                   </size>
                  </property>
                  <property name="font">
@@ -11694,7 +11740,7 @@ CAMERA</string>
                 </font>
                </property>
                <property name="title">
-                <string>DRO</string>
+                <string>DIGITAL READOUT</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
@@ -17901,7 +17947,7 @@ ANGULAR</string>
                      <font>
                       <family>Open Sans</family>
                       <pointsize>10</pointsize>
-                      <bold>false</bold>
+                      <bold>true</bold>
                      </font>
                     </property>
                     <property name="toolTip">
@@ -18004,7 +18050,7 @@ ANGULAR</string>
                      <font>
                       <family>Open Sans</family>
                       <pointsize>10</pointsize>
-                      <bold>false</bold>
+                      <bold>true</bold>
                      </font>
                     </property>
                     <property name="toolTip">
@@ -18062,13 +18108,13 @@ ANGULAR</string>
         </property>
         <property name="minimumSize">
          <size>
-          <width>746</width>
+          <width>2430</width>
           <height>27</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>2500</width>
+          <width>2430</width>
           <height>27</height>
          </size>
         </property>
@@ -18117,7 +18163,7 @@ ANGULAR</string>
          </size>
         </property>
         <property name="text">
-         <string>TIME</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
