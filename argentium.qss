@@ -135,10 +135,6 @@ StatusLabel#lbl_mcodes {
     color: #e0e0e0;
 }
 
-StatusLabel#status_rpm, Label {
-    font: 20pt "Lato Heavy";
-}
-
 DROLabel {
     background: #202020;
     border: 1px solid #e0e0e0;
@@ -458,6 +454,7 @@ JoyPad {
     qproperty-HighlightColor: #00aaff;
 }
 
+
 /** GCode Display **/
 EditorBase {
     qproperty-styleColorBackground: #202020;
@@ -476,7 +473,7 @@ EditorBase {
     qproperty-styleFont7: "DejaVu Sans Mono,10,-1,5,90,0,0,0,1,0";
     qproperty-styleFontMargin: "DejaVu Sans Mono,8,-1,5,50,0,0,0,1,0";    
     qproperty-styleColor0: #efefef;	/* default */
-    qproperty-styleColor1: #655d5d; 	/* LineNo & Comments */
+    qproperty-styleColor1: #655d5d;	/* LineNo & Comments */
     qproperty-styleColor2: #cf4949;  	/* Gcodes */     
     qproperty-styleColor3: #f06e3b;	/* Mcodes */
     qproperty-styleColor4: #7272ca;	/* Axes */
